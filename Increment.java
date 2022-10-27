@@ -15,6 +15,7 @@
 
 public class Increment implements Runnable{
 	private int value = 0;
+	// add synchronized to make question B correct
 	private synchronized void incrementAndPrint(){
 	  value++;
 	  System.out.println("Thread " + Thread.currentThread().getName()
