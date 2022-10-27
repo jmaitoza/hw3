@@ -10,7 +10,8 @@
 	Thread A value = 1
 	Thread A value = 4
 
-   (b) Fix the code so that it only produces one result. 
+   (b) Fix the code so that it only produces one result.
+   - added synchronized to incrementAndWrite() method
 */
 
 public class Increment implements Runnable{
